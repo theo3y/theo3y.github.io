@@ -51,7 +51,7 @@ reCaptcha:
 atom_feed:
   path                   : # blank (default) uses feed.xml
 search                   : true # true, false (default)
-search_full_content      : true # true, false (default)
+search_full_content      : false # true, false (default)
 
 # SEO Related
 google_site_verification : 
@@ -76,7 +76,7 @@ social:
 
 # Analytics
 analytics:
-  provider               : true # false (default), "google", "google-universal", "custom"
+  provider               : google-universal # false (default), "google", "google-universal", "custom"
   google:
     tracking_id          : UA-113572733-1
 
@@ -182,7 +182,7 @@ sass:
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: America/Los_Angeles # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins (previously gems:)
