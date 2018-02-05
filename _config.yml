@@ -253,3 +253,43 @@ defaults:
       comments: true # true
       share: true
       related: true
+
+prose:
+  rooturl: '_posts'
+  media: 'images'
+  ignore:
+    - index.md
+    - _config.yml
+    - /_layouts
+    - /_includes
+  metadata:
+    _posts:
+      - name: "published"
+        field:
+          label: "Published"
+          element: "checkbox"
+          value: "true"
+      - name: "layout"
+        field:
+          label: "Layout"
+          value: "single"
+      - name: "title"
+        field:
+          label: "Title"
+          element: "text"
+          value: "Post Title"
+      - name: "description"
+        field:
+          element: "text"
+          label: "Description"
+          placeholder: "Enter Post Description"
+      - name: "tags"
+        field:
+          element: "text"
+          label: "Tags"
+          placeholder: "Enter tags, separated by spaces"
+      - name: "date"
+        field:
+          element: "text"
+          label: "Date"
+          placeholder: "YYYY-MM-DD"
