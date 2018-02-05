@@ -84,10 +84,10 @@ analytics:
 
 # Site Author
 author:
-  name             : "theo3y"
+  name             : "Sharing thoughts"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Sharing thoughts. Nothing is off-limits. Any comments are welcome; the feedback is appreciated. Help us figure out life."
-  location         : "Somewhere"
+  bio              : "Nothing is off-limits. Any comments are welcome; the feedback is appreciated. Help us figure out life."
+  location         :
   email            :
   uri              :
   home             : # null (default), "absolute or relative url to link to author home"
